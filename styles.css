@@ -1,0 +1,122 @@
+
+
+.product {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    margin: -1px 19px 3px -1px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Resize images */
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.logo{
+    color:black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+ nav{
+    background-color: aqua;
+    height:80px;
+    width: 100%;
+}
+
+ nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+ nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+ nav ul li a {
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:black;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active, a:hover{
+    background:blanchedalmond;
+    transition: .5s;
+}
+
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: aqua;
+}
+
+.box input[type = "text"], .box input[type = "password"]{
+    border:0;
+    background: none;
+    display:block;
+    margin: 20px auto;
+    text-align: center;
+    border:2px solid black;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box h1{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box button[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius:24px;
+    transition: 0.25s;
+    cursor:pointer;
+}
+
+.box button[type = "submit"]:hover{
+    background: blanchedalmond;
+}
+
+
+
+
+
+
